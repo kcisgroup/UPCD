@@ -1,4 +1,4 @@
-# Categorical-BERT: Providing a Fresh Perspective for Categorical Clustering
+# Discovering Underlying Pattern Clusters by Encoding Data to Transformer Tokens
 
 ```diff
 - Depending on your transformer toolkit versions, the transformer import code may need to be adjusted, like as follows:
