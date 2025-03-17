@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from utils.metric import Confusion
 from torch.utils.data import DataLoader
 from utils.preprocess import *
-from my_models.Categorical_BERT import BCM
+from my_models.UPCD import UPCD
 from datetime import datetime
 import argparse
 from make_dataset.Datasets import Datasets
@@ -180,7 +180,7 @@ if __name__ == '__main__':
     # train_loader = DataLoader(dataset=train_dataset, batch_size=args.batch_size, shuffle=False)
 
     # Main body
-    model = BCM(args)
+    model = UPCD(args)
     model.to(model.device)
     print("model:", model)
     # trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
