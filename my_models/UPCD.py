@@ -24,9 +24,9 @@ class ClusterLayer(nn.Module):
 
         return quantize, embed_ind, loss
 
-class BCM(nn.Module):
+class UPCD(nn.Module):
     def __init__(self, args):
-        super(BCM, self).__init__()
+        super(UPCD, self).__init__()
 
         self.device = torch.device(f'cuda:{args.gpu_id}' if args.cuda else 'cpu')
         self.model_path = args.lm_path
