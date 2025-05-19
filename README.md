@@ -29,7 +29,7 @@ directly for structured clustering.  We suggest adjusting the hyperparameters mu
 
 (2)[make_dataset](https://github.com/kcisgroup/Categorical-BERT/tree/main/make_dataset): Data processing. Help us prepare the training set.
 
-(3)[my_models](https://github.com/kcisgroup/Categorical-BERT/tree/main/my_models): Define the network structure of Categorical-BERT.
+(3)[my_models](https://github.com/kcisgroup/Categorical-BERT/tree/main/my_models): Define the network structure of UPCD.
 
 (4) [utils](https://github.com/kcisgroup/Categorical-BERT/tree/main/utils): Contains functions for data processing and model evaluation.
 
