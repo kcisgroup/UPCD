@@ -19,7 +19,7 @@ After downloading the code, you can run
 python3 run.py
 ```
 
-directly for categorical clustering.  We suggest adjusting the hyperparameters multiple times to achieve better results.
+directly for structured clustering.  We suggest adjusting the hyperparameters multiple times to achieve better results.
 
 
 
